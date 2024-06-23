@@ -48,7 +48,7 @@ function App() {
         <button type="submit">Search</button>
       </form>
 
-      <div className=''>
+      <div>
         {/* Display error message if there is an error */}
         {error && <p className="error">{error}</p>}
         
